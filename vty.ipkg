@@ -20,6 +20,7 @@ modules = Graphics.Text.Width
         , Graphics.Vty.Attributes.Color
         , Graphics.Vty.Image
         , Graphics.Vty.Image.Internal
+        , Graphics.Vty.Picture
 
 prebuild = "make -C support"
 
