@@ -8,10 +8,16 @@ langversion >= 0.7.0
 
 depends = base >= 0.7.0
         , ansi
+        , elab-util
+        , finite
+        , array
 
 sourcedir = "src"
 
 modules = Graphics.Text.Width
+
+        , Graphics.Vty.Attributes
+        , Graphics.Vty.Attributes.Color
 
 prebuild = "make -C support"
 
