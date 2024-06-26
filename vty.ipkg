@@ -1,0 +1,18 @@
+package vty
+version      = 0.0.1
+authors      = "stefan-hoeck"
+readme       = "README.md"
+license      = "BSD-3 Clause"
+brief        = "Port of Haskell's vty library for writing terminal applications"
+langversion >= 0.7.0
+
+depends = base >= 0.7.0
+        , ansi
+
+sourcedir = "src"
+
+modules = Graphics.Text.Width
+
+prebuild = "make -C support"
+
+preinstall = "make -C support install"

@@ -1,0 +1,5 @@
+[custom.all.vty]
+type   = "local"
+path   = "."
+ipkg   = "vty.ipkg"
+test   = "test/test.ipkg"

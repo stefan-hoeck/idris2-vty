@@ -1,0 +1,13 @@
+package vty-test
+version      = 0.0.1
+authors      = "stefan-hoeck"
+readme       = "README.md"
+license      = "BSD-3 Clause"
+langversion >= 0.7.0
+
+depends = vty
+
+sourcedir = "src"
+
+main       = Main
+executable = "vty-test"
